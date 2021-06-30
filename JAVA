@@ -119,3 +119,4 @@ public class VaEx1 {
 
 int x =4, y =2;: 변수선언
 
+
