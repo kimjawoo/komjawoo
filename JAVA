@@ -1,0 +1,121 @@
+자바의 정석 -기초편ch-1-10~12ch-2-3~ch-2-4
+ch-1-10~12
+System.out.println("hello. wold"); // 안녕하세요 월드
+
+public static void main(string[] args)// 자바에서 소문자와 대문자 오류 
+
+이클립스에서 자바 프로그램을 작성하는 순서
+
+1. 프로젝트를 생성한다.
+-메뉴 File > New > Java Project
+
+2. 클래스를 생성한다
+- 프로젝트 이름 위에서 우클릭 > New > Class
+
+3. 소스파일의 작성 후 저장(자동컴파일됨)
+
+4. 실행
+
+Bulid 관련 메뉴 설명
+Bulid란? 
+-소스파일(*.java)로부터 프로그램을 만들어 내는 전과정
+
+Project > Bulid All
+-workspace 의 모든 프로젝트를 빌드
+
+Project > Bulid Project
+-현재 프로젝트를 빌드(변경된 소스파일만 새로 컴파일);
+
+Project > Clean
+-이전빌드의 정보를 모두삭제(모든소스파일을 새로 컴파일);
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+2강-3
+변수 
+변하는 수
+하나의 값을 저장할수있는 메모리 공간
+램  메모리 주소 
+
+변수의 선언
+변수의 선언 이유
+값을 저장할 공간을 마련하기 위해서
+변수의 선언 방법
+변수 타입 변수 이름;  코드쓴다음 ;=세미콜론 써주기
+int age; 
+
+변수에 값을 저장하기
+변수에 값 저장하기
+int age; // 정수(int)타입의 변수 age 를선언
+age=25; //변수 age에25를 저장
+int age=25; //위의 두줄을 한줄로
+
+변수의 초기화 - 변수에 처음으로 값을 저장하는것
+int x =0;   //변수 x 를 선언후 
+int y =5;
+
+변수의 값 읽어오기 
+변수의 값이 필여한 곳에 변수의 이름을 적는다
+int year =0, age =14;
+year =age + 2000;
+year =14+ 2000;
+year=2014;
+
+age=age+1;
+age=14+1;
+
+
+
+
+2강 -4
+변수의 타입
+하나의 값을 저장하기위한 메모리 공간
+int=정수 일치 정수  age =25;
+
+age=정수타입 불일치 실수 =3.14; age=???
+저장할 값의 타입과 일치하는 타입으로 변수를 선언
+char : 문자형 일치 문자 ch
+
+
+값의타입
+값= 문자=가다라마바사 숫자=0.25-100정수=byte,short,int,long 실수=3.174 -0.1 float,double
+논리 - boolean thue
+ 	       flas
+
+
+단축키 목록 보기: ctrl+shift+L 저장: ctrl+ s
+
+
+public class Ex2_1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//sysout ctr+space  자동완성
+		// ctrl+ait+shift+down 행단위 복사
+		//art+shift+a 컬럼편집 모드(토글)
+		//print() - 출력 후에 줄바꿈을 안함
+		//prinln() - 출력후에 줄바꿈을 합니다
+		
+		System.out.println(5+3); //덧셈
+		System.out.println(5-3);// 뺄셈
+		System.out.println(5*3);//곱하기
+		System.out.println(5/3.0);// 나눗셈
+	}
+
+}
+
+
+자바의 정석ch02-0
+public class VaEx1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x =4, y =2;
+		System.out.println(x+y); // 덧셈
+		System.out.println(x-y);// 뺄셈
+		System.out.println(x*y);// 곱셈
+		System.out.println(x/y);// 나눗셈
+	}
+
+}
+
+int x =4, y =2;: 변수선언
+
